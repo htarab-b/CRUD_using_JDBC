@@ -6,6 +6,9 @@ This program has the basic CRUD Operations (Create, Read, Update, Delete) using 
 ## Prerequisites
 In order to run this program, A MySQL server has to be running in your local with a Database that goes by a name of your choice. And in the MySQL Database, run the below command to create a Table in the Database.
 ```
+CREATE DATABASE example
+USE example
+
 CREATE TABLE sample (
   id int(11) NOT NULL AUTO_INCREMENT,
   name varchar(50),
